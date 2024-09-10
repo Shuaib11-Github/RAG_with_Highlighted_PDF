@@ -1,12 +1,12 @@
 
 # RAG_with_Highlighted_PDF
 
-This project is a **Streamlit application** designed to highlight specific content within PDF files. The app parses the PDF and allows users to select and highlight portions of the content interactively.
+This project is a **Streamlit application** designed to chat with specific content within PDF files. The app parses the PDF and allows users to ask questions or engage in a conversation about the PDF content interactively.
 
 ## Features
 
 - Load and view PDF content.
-- Highlight specific text in the PDF.
+- Chat with the PDF to ask questions or get insights based on the content.
 - Interactive user interface built with Streamlit.
 
 ## Project Structure
@@ -64,14 +64,15 @@ This command will launch the application in your browser, where you can interact
 
 ## Usage
 
-1. After launching the app, upload a PDF file through the interface.
-2. Use the app's tools to highlight specific sections of the PDF content.
-3. The highlighted PDF content will be displayed for your review.
+1. Upload a PDF: After launching the app, the interface will prompt you to upload a PDF file.
+2. Chat with the PDF: Once the PDF is uploaded, you can start asking questions or having a conversation with the PDF content.
+3. Receive Responses: The app will process your questions using NLP models and return responses based on the PDF content.
+4. Interactive Conversation: You can continue to engage with the PDF to get more insights or clarifications based on the document's content.
 
 ## Troubleshooting
 
-- **Dependency Issues**: Ensure all dependencies listed in \`requirements.txt\` are installed correctly.
-- **Environment Variables**: Double-check the values in the \`.env\` file if you're using any APIs or external services.
+- Dependency Issues: Ensure all dependencies listed in requirements.txt are installed correctly.
+- Environment Variables: Ensure that the values in the .env file are correct, especially if you're using external services or APIs for PDF processing or NLP.
 
 ## License
 
