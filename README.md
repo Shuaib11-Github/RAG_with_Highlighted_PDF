@@ -3,43 +3,58 @@
 Highlight PDF Content Streamlit App
 This project is a Streamlit application designed to highlight specific content within PDF files. The app parses the PDF and allows users to select and highlight portions of the content interactively.
 
-Features
+Features:
+
 Load and view PDF content.
+
 Highlight specific text in the PDF.
+
 Interactive user interface with Streamlit.
 
-Project Structure
+Project Structure:
+
 .env: Environment variables for sensitive information like API keys.
 
 app.py: The main application file containing the Streamlit app logic.
 
 requirements.txt: List of Python dependencies required for the project.
 
-Requirements
+Requirements:
 Ensure you have the following installed:
 
 Python 3.8+
 
 pip (Python package manager)
 
-Setup Instructions
+Setup Instructions:
+
 1. Clone the Repository
 If the project is on a GitHub repository, clone the repository using:
 
     `git clone <repository_url>`
 
-2. Install Dependencies
+2. Create a Conda Environment
+Navigate to the project directory and create a new Conda environment using the following command:
+
+    `conda create --name pdf_highlighter_env python=3.8`
+
+Activate the environment:
+
+    `conda activate pdf_highlighter_env`
+
+3. Install Dependencies
 Navigate to the project directory and install the required dependencies using pip:
 
     `pip install -r requirements.txt`
 
-3. Set Up Environment Variables
+4. Set Up Environment Variables
 Copy the example .env.example file to .env and configure any necessary environment variables.
 
     `.env`
+
 Edit the .env file to add your own environment settings (such as API keys or configurations). If no modifications are necessary, you can skip this step.
 
-4. Run the Application
+5. Run the Application
 Start the Streamlit app using the following command:
 
     `streamlit run app.py`
