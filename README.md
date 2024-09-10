@@ -28,39 +28,34 @@ Ensure you have the following installed:
 
 If the project is on a GitHub repository, clone the repository using the following command:
 
-\`\`\`bash
-git clone <repository_url>
-\`\`\`
+bash
+`git clone <repository_url>`
 
 ### 2. Create a Conda Environment
 
 Navigate to the project directory and create a new Conda environment using the following command:
 
-\`\`\`bash
-conda create --name pdf_highlighter_env python=3.8
-\`\`\`
+bash
+`conda create --name pdf_highlighter_env python=3.8`
 
 Activate the environment:
 
-\`\`\`bash
-conda activate pdf_highlighter_env
-\`\`\`
+bash
+`conda activate pdf_highlighter_env`
 
 ### 3. Install Dependencies
 
 After activating the environment, install the required dependencies using the \`requirements.txt\` file:
 
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
+bash
+`pip install -r requirements.txt`
 
 ### 4. Set Up Environment Variables
 
-Copy the example \`.env.example\` file to \`.env\` and configure any necessary environment variables:
+Create a \`.env\` and configure any necessary environment variables:
 
-\`\`\`bash
-cp .env.example .env
-\`\`\`
+bash
+`.env`
 
 Edit the \`.env\` file to add your own environment settings (such as API keys or configurations). If no modifications are necessary, you can skip this step.
 
@@ -68,9 +63,8 @@ Edit the \`.env\` file to add your own environment settings (such as API keys or
 
 Start the Streamlit app using the following command:
 
-\`\`\`bash
-streamlit run app.py
-\`\`\`
+bash
+`streamlit run app.py`
 
 This command will launch the application in your browser, where you can interact with it to upload and highlight PDF content.
 
