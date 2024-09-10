@@ -65,14 +65,15 @@ This command will launch the application in your browser, where you can interact
 ## Usage
 
 1. Upload a PDF: After launching the app, the interface will prompt you to upload a PDF file.
-2. Chat with the PDF: Once the PDF is uploaded, you can start asking questions or having a conversation with the PDF content.
-3. Receive Responses: The app will process your questions using NLP models and return responses based on the PDF content.
-4. Interactive Conversation: You can continue to engage with the PDF to get more insights or clarifications based on the document's content.
+2. Ask Questions: In the text input box, you can ask questions about the PDF content. For example, "What is the main idea of the document?"
+3. Answer Generation: The app processes your question using the Google Generative AI or Langchain model, extracts the relevant text from the PDF, and displays the answer along with the source.
+4. Highlighted Sections: The app will highlight the portions of the PDF that are relevant to the query using red-colored annotations, so the user can easily see where the answer is coming from.
+5. Interactive Chat: You can continue to ask follow-up questions about the PDF, and the app will provide additional answers, continually highlighting relevant sections.
 
 ## Troubleshooting
 
 - Dependency Issues: Ensure all dependencies listed in requirements.txt are installed correctly.
-- Environment Variables: Ensure that the values in the .env file are correct, especially if you're using external services or APIs for PDF processing or NLP.
+- Environment Variables: Ensure that the values in the .env file are correct, especially if you're using external services or APIs for PDF processing.
 
 ## License
 
