@@ -48,7 +48,7 @@ After activating the environment, install the required dependencies using the \`
 
 ### 4. Set Up Environment Variables
 
-Create a \`.env\` and configure any necessary environment variables:
+Create a \`.env\` and configure any necessary environment variables (API keys):
 
 `.env`
 
