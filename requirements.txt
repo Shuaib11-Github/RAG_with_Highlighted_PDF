@@ -1,0 +1,17 @@
+PyMuPDF
+pytesseract
+qdrant-client
+agentops
+groq
+langchain==0.2.11
+langchain_community==0.2.10
+langchain_core==0.2.24
+langchain_openai==0.1.19
+langchain-google-genai
+langchain_text_splitters==0.2.2
+pandas==2.2.2
+streamlit==1.37.0
+streamlit_pdf_viewer==0.0.14
+google-generativeai
+python-dotenv
+
