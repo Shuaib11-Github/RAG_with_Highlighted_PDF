@@ -10,12 +10,16 @@ Interactive user interface with Streamlit.
 
 Project Structure
 .env: Environment variables for sensitive information like API keys.
+
 app.py: The main application file containing the Streamlit app logic.
+
 requirements.txt: List of Python dependencies required for the project.
 
 Requirements
 Ensure you have the following installed:
+
 Python 3.8+
+
 pip (Python package manager)
 
 Setup Instructions
